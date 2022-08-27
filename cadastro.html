@@ -31,7 +31,7 @@
             <h1 class="dark-color-1 font-2-x fadeInDown" data-anime="200">Transações</h1>
             <p class="dark-color-2 font-1-xs fadeInDown" data-anime="400">cadastro de transações<span class="color-l-1">.</span></p>
             <div>
-                <form class="forms" action="./">
+                <form class="forms"  id="formsTransaction" method="post">
                     <div>
                         <label class="dark-color-2 font-1-xs" for="value">Valor:</label>
                         <input type="number" id="value" name="value" placeholder="R$ 80.00" step="0.01" min="0.01">
@@ -43,7 +43,7 @@
                             <option value="1">Javascript</option>
                         </select>
                     </div>
-                    <button class="btn">Salvar</button>
+                    <button class="btn" id="btnCreate">Salvar</button>
                     <picture>
                         <img class="bank-img fadeInRight" data-anime="600" src="./img/bank.png" alt="Bank Image" width="499" height="271">
                     </picture>
