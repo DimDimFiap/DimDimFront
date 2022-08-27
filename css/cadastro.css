@@ -1,0 +1,103 @@
+/* Header */
+
+.header-bg{
+    background-color: var(--color-b-1);
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: var(--color-0);
+}
+
+.header-brand{
+    width: 60px;
+    height: 60px;
+}
+
+.header-menu{
+    display: flex;
+    gap: 60px;
+}
+
+.header-menu a::after{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    background: var(--color-l-2);
+}
+
+.header-menu a.active::after, .header-menu a:hover::after{
+    transition: .3s;
+    width: 100%;
+}
+
+
+/* Main */
+
+.main{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.forms{
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 20px;
+}
+
+.forms label{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.forms .btn{
+    grid-column: 1/-1;
+    grid-row: 3;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+.forms label{
+
+}
+
+.forms label + a {
+    color: var(--color-b-1);
+    text-decoration: underline;
+}
+
+.forms label + a:hover {
+    color: var(--color-b-2);
+}
+
+.bank-image{
+    object-fit: cover;
+    height: 200px;
+}
+
+
+@media (max-width: 800px) {
+
+    .header-menu{
+        gap: 20px;
+    }
+
+    .forms{
+        grid-template-columns: 1fr;
+    }
+
+    .forms picture{
+        grid-row: 1;
+    }
+
+    .forms .btn{
+        justify-self: left;
+    }
+}

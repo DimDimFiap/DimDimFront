@@ -1,0 +1,37 @@
+:root{
+    --color-0: #ffffff;
+    --color-b-1: #53B2DE;
+    --color-b-2: #93DDFF;
+    --color-l-1: #EFA244;
+    --color-l-2: #FFDCB0;
+    --dark-color-1: #141414;
+    --dark-color-2: #666666;
+    --color-l-3: #e88d1d;
+}
+
+.color-0{
+    color: var(--color-0);
+}
+.color-b-1{
+    color: var(--color-b-1);
+}
+
+.color-b-2{
+    color: var(--color-b-2);
+}
+
+.color-l-1{
+    color: var(--color-l-1);
+}
+
+.color-l-2{
+    color: var(--color-l-2);
+}
+
+.dark-color-1{
+    color: var(--dark-color-1);
+}
+
+.dark-color-2{
+    color: var(--dark-color-2);
+}

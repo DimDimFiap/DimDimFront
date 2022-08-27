@@ -1,0 +1,16 @@
+/* Colors */
+@import './colors.css';
+
+/* Typograph */
+@import './typograph.css';
+
+/* General */
+@import './global.css';
+@import './component.css';
+
+/* Animations */
+@import './animations.css';
+
+/* Pages */
+@import './cadastro.css';
+@import './consulta.css';
