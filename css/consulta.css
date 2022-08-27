@@ -1,0 +1,64 @@
+.table{
+    margin-top: 50px;
+    border-spacing: 1px;
+}
+.table th, .table td{
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.table td input, .table td input::placeholder, .table td select{
+    font-size: inherit;
+    font-family: inherit;
+    color: var(--dark-color-1);
+}
+
+.table td input:disabled, .table td select:disabled{
+    background: inherit;
+    border: none;
+    font-size: inherit;
+    font-family: inherit;
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.table td select:disabled, .table td select:disabled option {
+    color: var(--color-0);
+    opacity: 100%;
+}
+
+.table td input::placeholder{
+    color: var(--color-0);
+}
+
+.table img{
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.table tr td:nth-child(5){
+    width: 40px;
+}
+
+.table tr td:nth-child(5){
+    background-color: var(--color-0);
+}
+
+.table tr th:nth-child(5), .table tr th:last-child{
+    display: none;
+}
+
+.table tr td:last-child{
+    background-color: var(--color-0);
+}
+
+.table tr:nth-child(odd){
+    background-color: var(--color-b-2);
+}
+
+.table tr:nth-child(even){
+    background-color: var(--color-b-1);
+}
